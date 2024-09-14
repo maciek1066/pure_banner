@@ -46,6 +46,7 @@ docker-compose down
 This will stop all running containers and remove them.
 
 #### Environment Variables
-DJANGO_SETTINGS_MODULE: Set to pure_banner.settings by default to use the correct Django settings file.
-PYTHONPATH: Ensures Python can find the modules correctly in the /app directory within the Docker container.
+`DJANGO_SETTINGS_MODULE`: Set to pure_banner.settings by default to use the correct Django settings file.
+
+`PYTHONPATH`: Ensures Python can find the modules correctly in the /app directory within the Docker container.
 
