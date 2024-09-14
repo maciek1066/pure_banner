@@ -20,11 +20,21 @@ Before running the application or tests, you need to build the Docker image. Run
 docker-compose build
 ```
 
-### 1. Running Automated Tests
-To run the Django application and access it on localhost, execute the following command:
+### 2. Running the Django Application on localhost
 
 ```bash
 docker-compose up django-app
+```
+The application will be available at:
+```bash
+http://localhost:8000
+```
+
+### 3. Running Automated Tests
+To run the Django application and access it on localhost, execute the following command:
+
+```bash
+docker-compose up django-tests
 ```
 
 This will run all tests defined in your Django project, and the output will be displayed in the terminal.
